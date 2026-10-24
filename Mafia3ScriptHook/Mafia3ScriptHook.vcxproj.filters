@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp" />
+    <ClCompile Include="src\hooks.cpp" />
+    <ClCompile Include="src\lua_mod_loader.cpp" />
+    <ClCompile Include="src\logger.cpp" />
+    <ClCompile Include="vendor\minhook\src\trampoline.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\minhook\src\hook.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\minhook\src\hde\hde64.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\minhook\src\buffer.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\kiero\kiero.cpp">
+      <Filter>kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="src\d3d.cpp" />
+    <ClCompile Include="src\gui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\hks_types.h" />
+    <ClInclude Include="src\hooks.h" />
+    <ClInclude Include="src\lua_mod_loader.h" />
+    <ClInclude Include="src\logger.h" />
+    <ClInclude Include="vendor\minhook\MinHook.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\kiero\kiero.h">
+      <Filter>kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="minhook">
+      <UniqueIdentifier>{d3b000cf-e760-4199-83c3-7599d2028e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{add9a354-0e47-4f74-8bcc-664bed86cfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kiero">
+      <UniqueIdentifier>{436c9d03-8c45-4a48-a4c2-5cfc207995f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

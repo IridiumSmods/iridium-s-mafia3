@@ -1,0 +1,14 @@
+# Build outputs
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.pdb
+*.ilk
+*.exe
+*.asi
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
